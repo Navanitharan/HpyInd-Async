@@ -18,7 +18,7 @@ let timeout = function(count){
 }
 let loop = setTimeout(()=>{
     timeout(count);
-},5000);
+},2000);
 document.body.appendChild(p)
 p.style.textAlign="center"
 p.style.fontSize='20px'
